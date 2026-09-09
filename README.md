@@ -1,29 +1,27 @@
-# Galería Visual — Mis Mascotas
+# TP Galería Visual — Mis Mascotas
 
-* **Estudiante:** Adriel Bergantino
+* **Nombre y apellido:** Adriel Bergantino
 * **Materia:** Diseño y Desarrollo Web
 * **Tema:** Mis Mascotas (Kafka, Flash y Alma)
 
-## Descripción de la propuesta
-Este proyecto consiste en una galería visual que presenta a mis tres mascotas actuales: Kafka (gato), Flash (border collie) y Alma (caniche). El objetivo es armar un sitio web sencillo y fácil de recorrer con HTML y CSS, mostrando fotos propias y contando brevemente las características y hábitos de cada uno.
+## De qué trata el proyecto
+El sitio es una galería visual que armé para presentar a mis tres mascotas: Kafka (mi gato adoptado), Flash (un border collie de 3 años) y Alma (una caniche de 14 años). La idea fue contar brevemente cómo es cada uno, sus costumbres en casa y mostrar fotos que les saqué.
+
+## Objetivo
+Crear una web sencilla con HTML y CSS que permita recorrer la información de las mascotas de forma cómoda, con una portada general y una página propia para cada una con sus fotos y datos.
 
 ## Contenidos del sitio
-* `index.html`: Página de inicio con la presentación general y tarjetas de acceso a cada mascota.
-* `kafka.html`: Ficha individual sobre Kafka, sus hábitos y fotos. 
-* `flash.html`: Ficha individual sobre Flash, su historia y fotos.
-* `alma.html`: Ficha individual sobre Alma, su rutina y fotos.
-* `css/style.css`: Estilos visuales del sitio (colores, tipografía y maquetación con Flexbox).
-* `img/`: Carpeta con las fotos utilizadas en el proyecto.
+* `index.html`: Página principal con la presentación y las tres tarjetas de acceso.
+* `kafka.html`: Página sobre Kafka con su información, el origen de su nombre y sus fotos.
+* `flash.html`: Página sobre Flash con su historia del moquillo y sus fotos.
+* `alma.html`: Página sobre Alma contando su rutina de caniche viejita y fotos.
+* `css/style.css`: Estilos visuales de todo el sitio.
+* `img/`: Fotos de las mascotas usadas en las páginas.
 
 ## Decisiones de diseño
-* **Colores:**
-  * Verde (`#2e5b32`): Encabezado y botones principales.
-  * Naranja (`#c06020`): Estados activos de los enlaces y hover de los botones.
-  * Gris claro (`#f4f4f4`): Fondo general para facilitar la lectura.
-  * Blanco (`#ffffff`): Fondo de las tarjetas y contenedores de información.
-  * Gris oscuro (`#222222`): Pie de página y texto principal.
-* **Tipografía:**
-  * Se utilizó `Arial, Helvetica, sans-serif` como fuente general para asegurar una lectura limpia y estándar en cualquier navegador.
+* **Colores:** Usé verde oscuro (`#2e5b32`) para el encabezado y los botones, y un naranja (`#c45a1b`) para marcar la página activa y cuando pasas el mouse por arriba. De fondo elegí un gris claro (`#f4f4f4`) para que no quede el blanco puro de fondo y las tarjetas blancas resalten mejor.
+* **Tipografía:** Usé Arial (`Arial, Helvetica, sans-serif`) para que sea fácil de leer en cualquier pantalla y no tarde en cargar.
 * **Maquetación y Responsive:**
-  * Se aplicó Flexbox para alinear la barra de navegación, las tarjetas de la página principal y las fotos de las páginas internas.
-  * Se incluyeron media queries para adaptar el menú y las tarjetas a pantallas pequeñas de celular.
+  * Usé Flexbox para ordenar el menú de navegación, poner las tres tarjetas una al lado de la otra en el inicio y ordenar las fotos en las páginas individuales.
+  * Para que se adapte a celulares sumé un `@media (max-width: 768px)` que apila las tarjetas y los botones en una sola columna.
+  * Usé porcentajes (`%`) para que las imágenes y tarjetas se adapten al ancho de la pantalla, `rem` para los tamaños de los títulos y `em` para los botones.
