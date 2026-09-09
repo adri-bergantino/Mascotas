@@ -94,11 +94,9 @@ p {
 }
 
 .imagen-principal img {
-    max-width: 650px;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     border: 1px solid #cccccc;
-    display: inline-block;
 }
 
 .imagen-principal figcaption {
