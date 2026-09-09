@@ -1,24 +1,29 @@
 # Galería Visual — Mis Mascotas
 
-* **Alumno:** Adriel Bergantino
+* **Estudiante:** Adriel Bergantino
 * **Materia:** Diseño y Desarrollo Web
-* **Año:** 2026
+* **Tema:** Mis Mascotas (Kafka, Flash y Alma)
 
-## Sobre el proyecto
-Este proyecto es una galería visual dedicada a mis tres mascotas: Kafka (gato), Flash (border collie) y Alma (caniche). La idea surgió para mostrar cómo es el día a día con cada uno de ellos, sus personalidades tan distintas y algunas fotos de momentos cotidianos en casa.
+## Descripción de la propuesta
+Este proyecto consiste en una galería visual que presenta a mis tres mascotas actuales: Kafka (gato), Flash (border collie) y Alma (caniche). El objetivo es armar un sitio web sencillo y fácil de recorrer con HTML y CSS, mostrando fotos propias y contando brevemente las características y hábitos de cada uno.
 
-## Objetivo
-Armar un sitio web simple y fácil de navegar que funcione como presentación de mis mascotas, organizando la información en fichas individuales con fotos, datos básicos y anécdotas de cada una.
-
-## Estructura del sitio
-* `index.html`: Página principal con la presentación general y accesos a cada mascota.
-* `kafka.html`: Página con la historia, datos y fotos de Kafka.
-* `flash.html`: Página dedicada a Flash, su rutina y fotos.
-* `alma.html`: Página sobre Alma, sus cuidados y fotos de su día a día.
-* `css/style.css`: Hoja de estilos con el diseño visual del sitio.
-* `img/`: Carpeta con las fotos que saqué para el proyecto.
+## Contenidos del sitio
+* `index.html`: Página de inicio con la presentación general y tarjetas de acceso a cada mascota.
+* `kafka.html`: Ficha individual sobre Kafka, sus hábitos y fotos.
+* `flash.html`: Ficha individual sobre Flash, su historia y fotos.
+* `alma.html`: Ficha individual sobre Alma, su rutina y fotos.
+* `css/style.css`: Estilos visuales del sitio (colores, tipografía y maquetación con Flexbox).
+* `img/`: Carpeta con las fotos utilizadas en el proyecto.
 
 ## Decisiones de diseño
-* **Colores:** Elegí tonos verdes oscuros (`#3e5f44`) y un naranja cálido (`#d97736`) para los botones y enlaces, combinados con un fondo claro (`#faf8f5`). Busqué colores que den una sensación cálida y tranquila, acorde a una temática de hogar y animales.
-* **Tipografía:** Usé una tipografía sans-serif del sistema (`Segoe UI`, Tahoma, Verdana) para que los textos se lean claros tanto en computadora como en el celular.
-* **Maquetación:** Utilicé Flexbox para ordenar las tarjetas de la página de inicio y acomodar las fotos en las páginas individuales de manera prolija.
+* **Colores:**
+  * Verde (`#2e5b32`): Encabezado y botones principales.
+  * Naranja (`#c06020`): Estados activos de los enlaces y hover de los botones.
+  * Gris claro (`#f4f4f4`): Fondo general para facilitar la lectura.
+  * Blanco (`#ffffff`): Fondo de las tarjetas y contenedores de información.
+  * Gris oscuro (`#222222`): Pie de página y texto principal.
+* **Tipografía:**
+  * Se utilizó `Arial, Helvetica, sans-serif` como fuente general para asegurar una lectura limpia y estándar en cualquier navegador.
+* **Maquetación y Responsive:**
+  * Se aplicó Flexbox para alinear la barra de navegación, las tarjetas de la página principal y las fotos de las páginas internas.
+  * Se incluyeron media queries para adaptar el menú y las tarjetas a pantallas pequeñas de celular.
