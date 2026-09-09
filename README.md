@@ -9,7 +9,7 @@ Este proyecto consiste en una galería visual que presenta a mis tres mascotas a
 
 ## Contenidos del sitio
 * `index.html`: Página de inicio con la presentación general y tarjetas de acceso a cada mascota.
-* `kafka.html`: Ficha individual sobre Kafka, sus hábitos y fotos.
+* `kafka.html`: Ficha individual sobre Kafka, sus hábitos y fotos. 
 * `flash.html`: Ficha individual sobre Flash, su historia y fotos.
 * `alma.html`: Ficha individual sobre Alma, su rutina y fotos.
 * `css/style.css`: Estilos visuales del sitio (colores, tipografía y maquetación con Flexbox).
